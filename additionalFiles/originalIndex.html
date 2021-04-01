@@ -14,7 +14,7 @@
             }
             .card{
                 border-radius: 25px;
-                background-color: #e49a9a;
+                background-color: #6b6868;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
                 overflow: hidden;
             }
@@ -25,18 +25,12 @@
             .cardrow{
                 margin-top: 9%;
             }
-            .subfeat{
-                max-height: 250px;
-                margin-top: 15%;
-                background-color: rgb(53, 51, 51);
-                margin-right: 2%;
-            }
-            .subfeat .title{
-                color:rgba(151, 148, 148, 0.6);
+            p.card-text{
+                /* height:50px; */
             }
            
             .title{
-                color: #5c5a5a;
+                color: #F26A4B;
             }
             .card img{
                 /* position: relative;  */
@@ -46,11 +40,9 @@
                 /* position: absolute; */
                 background-color:#e0e0e0;
                 color: #F26A4B;
-                height: 49vh;
-                width: 97vw; /* dont want this here i want to have this stay within the right width but its not working*/
+                height: 40vh;
+                width: 95vw; /* dont want this here i want to have this stay within the right width but its not working*/
                 border-radius: 10px;
-                margin-left: 15px;
-                margin-right: auto;
             }
 
         </style>
@@ -114,13 +106,13 @@
 
             <!--start of recent post cards-->
 
-            <div class="row cardrow1 featured"> 
-                <div class="col-11 col-md-6 mt-4 mt-md-0 mx-sm-auto mx-3"><!--changed-->
+            <div class="row cardrow1">
+                <div class="col-11 col-md-5 mt-4 mt-md-0 mx-auto">
             
                         <!-- Add your second card below: -->
                     <div class="card text-white pb-4">
                         <div class="title h2 p-2 align-self-end">
-                            blog title
+                            Blog Title
                         </div>
                     
                         <div class="card-body text-end">
@@ -134,43 +126,7 @@
 
                 </div><!--end of col-->
 
-                <div class="col-11 col-sm-12 col-md-5 mt-4 mt-md-0"><!--changed-->
-                    <div class="row"></div>
-                        <div class="col-10">
-                            <div class="card text-white pb-4 subfeat">
-                                <div class="title h2 p-2 align-self-end">
-                                    blog title
-                                </div>
-                            
-                                <div class="card-body text-end">
-                                    <p class="card-text text-uppercase">Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. 
-                                    </p>
-                                    <a href="#">continue reading...</a>
-                                </div>
-                            </div>
-                        </div><!--end subfeat-->
-
-                        <div class="col-10">
-                            <div class="card text-white pb-4 subfeat">
-                                <div class="title h2 p-2 align-self-end">
-                                    blog title
-                                </div>
-                            
-                                <div class="card-body text-end">
-                                    <p class="card-text text-uppercase">Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. 
-                                    </p>
-                                    <a href="#">continue reading...</a>
-                                </div>
-                            </div>
-                        </div><!--end subfeat-->
-                        <div class="card col-5 mt-5 gtb h3">
-                            <a class=" align-self-center" href="#">-> BLOG -></a>
-                        </div>
-                    </div><!--end of row-->
-
-                </div><!--end of col-->
-
-                <!-- <div class="col-11 col-md-11 mt-5 mt-md-0 mx-auto ">
+                <div class="col-11 col-md-5 mt-5 mt-md-0 mx-auto ">
             
                     <div class="card text-white pb-4">
                         <div class="title h2 p-2 align-self-end ">
@@ -184,7 +140,7 @@
                         <img class="card-img-top" src="./1x/wheatField.jpg">
                     </div>
 
-                </div>end of col -->
+                </div><!--end of col-->
 
             </div><!--end of row-->
 
